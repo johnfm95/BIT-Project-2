@@ -1,3 +1,10 @@
+print "Welcome to the Data Processing Tool!"
+x = raw_input("To continue, type 'ENTER': ")
+if x == ("ENTER"):
+    print " "
+else:
+    quit()
+
 Words = ("John", "Sam", "Tom", "Sai", "Samira")
 isinlist = False
 
@@ -9,7 +16,7 @@ while True:
     if isinlist == True:
         break
 
-Words = ("Password123", "Password")
+Words = ("Password123", "Password", "P")
 isinlist = False
 
 while True:
@@ -20,5 +27,5 @@ while True:
     if isinlist == True:
         break
 
-print "Welcome"
+print "Welcome!"
 

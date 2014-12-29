@@ -77,7 +77,6 @@ for x in range(5000):
         print "Interest Recivables:      £" + str(data[x]['company']['interest_receivable'])
         print "Opening Stock:            £" + str(data[x]['company']['opening_stock'])
         print "Closing Stock:            £" + str(data[x]['company']['closing_stock'])
-        print "Closing + Opeing:         £" + str(data[x]['company']['closing_stock + opening_stock'])
         
         
 

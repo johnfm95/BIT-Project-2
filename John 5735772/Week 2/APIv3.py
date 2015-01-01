@@ -1,4 +1,4 @@
-print "Welcome to the Data Processing Tool!"
+print "Welcome to the Data Processing Tool"
 x = raw_input("To continue, type 'ENTER': ")
 if x == ("ENTER"):
     print " "

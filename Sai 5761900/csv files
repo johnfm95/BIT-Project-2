@@ -1,0 +1,13 @@
+import csv
+
+with open('test.csv', 'rb') as f:
+  data = list(csv.reader(f))
+
+import collections
+counter = collections.defaultdict(int)
+for row in data:
+    counter[row[1]] += 1
+for row in data:
+    if counter[row[1]] >= 4:
+      writer = csv.writer(open("test1.csv", "wb"))
+      writer.writerows(row)

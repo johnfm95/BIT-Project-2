@@ -65,11 +65,8 @@ for x in range(5000):
         print "Opening Stock:            £" + str(data[x]['company']['opening_stock'])
         print "Closing Stock:            £" + str(data[x]['company']['closing_stock'])
 
-data = open ("API", "rb")
-byte = data.read(1)
-while byte != "1":
-   byte = data.read(1)
-   data.close()
+
+   
    
 
 
